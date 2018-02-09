@@ -12,6 +12,16 @@ developers on your project. This includes:
 * any future developers (including yourself) who want to see why a change was
   made
 
+Taking the time to write a good commit message is important for a few reasons.
+
+It's being kinder to our future selves. Like an
+[architecture decision record][adr], capturing context around a change allows
+people to understand why a particular implementation decision was made.
+
+It's an advertisement to work with you. It's demonstrates that you are
+experienced enough to care about future maintainers. It's a palpable form of
+levelling up.
+
 ### Recommended blog posts on this topic
 
 * [5 useful tips for a better commit message](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
@@ -64,6 +74,9 @@ For example:
 You should leave a blank line before the rest of the commit message, which you
 should wrap at around 72 characters: this makes it easier to view commit
 messages in a terminal.
+
+Ignoring the established community guidelines for structuring commit messages
+is mildy anti-social to other git users.
 
 
 #### Example
@@ -156,3 +169,5 @@ someone else's differently-configured git, or miss a step when configuring a
 new machine.
 
 [^1]: (or any other remote-tracking branch you have in your local copy)
+
+[adr]: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
